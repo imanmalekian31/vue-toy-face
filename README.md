@@ -25,7 +25,7 @@ $ yarn add vue-toy-face
 </template>
 
 <script>
-  import { VueToyFace } from "vue-toy-face";
+  import VueToyFace from "vue-toy-face";
 
   export default {
     components: { VueToyFace },
