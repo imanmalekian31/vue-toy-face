@@ -17,6 +17,30 @@ $ npm install vue-toy-face
 $ yarn add vue-toy-face
 ```
 
+## Usage
+
+```html
+<template>
+  <VueToyFace size="140" rounded="28" toy-number="3" />
+</template>
+
+<script>
+  import { VueToyFace } from "vue-toy-face";
+
+  export default {
+    components: { VueToyFace },
+  };
+</script>
+```
+
+## Constructor Options
+
+| Key         | Type           | Description                                 | Default |
+| :---------- | -------------- | ------------------------------------------- | :-----: |
+| `size`      | String, Number | Width and height of avatar (per pixel)      |  `48`   |
+| `rounded`   | String, Number | Border radius of avatar (per pixel)         |   `0`   |
+| `toyNumber` | String, Number | The Number of each avatar (between 1 to 18) |   `1`   |
+
 # License
 
 [The MIT License](http://opensource.org/licenses/MIT)
