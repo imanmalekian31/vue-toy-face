@@ -40,6 +40,7 @@ $ yarn add vue-toy-face
 | `size`      | String, Number | Width and height of avatar (per pixel)      |  `48`   |
 | `rounded`   | String, Number | Border radius of avatar (per pixel)         |   `0`   |
 | `toyNumber` | String, Number | The Number of each avatar (between 1 to 18) |   `1`   |
+| `group`     | String, Number | Avatars define in each group ( 1 or 2)      |   `1`   |
 
 # License
 
