@@ -1,6 +1,6 @@
 {
   "name": "vue-toy-face",
-  "version": "1.5.0",
+  "version": "2.0.0",
   "private": false,
   "author": {
     "name": "Iman Malekian",
@@ -22,6 +22,6 @@
     "src/"
   ],
   "peerDependencies": {
-    "vue": "^2.6.14"
+    "vue": "^3.2.38"
   }
 }

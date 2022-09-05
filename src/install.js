@@ -1,3 +1,11 @@
 import VueToyFace from "./components/VueToyFace.vue";
 
-export default VueToyFace;
+const plugin = {
+  install(Vue) {
+    Vue.component("VueToyFace", VueToyFace);
+  },
+};
+
+export { VueToyFace };
+
+export default plugin;
