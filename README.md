@@ -10,11 +10,19 @@
 
 ## Installation
 
+### Vue 3
 ```shell
 # npm
 $ npm install vue-toy-face
 # yarn
 $ yarn add vue-toy-face
+```
+### Vue 2
+```shell
+# npm
+$ npm install vue-toy-face@1.5.0
+# yarn
+$ yarn add vue-toy-face@1.5.0
 ```
 
 ## Usage
