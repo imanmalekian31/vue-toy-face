@@ -2,6 +2,7 @@
   "name": "vue-toy-face",
   "version": "2.0.0",
   "private": false,
+  "description": "Vue Toy Face",
   "author": {
     "name": "Iman Malekian",
     "email": "imanmalekian31@gmail.com"
